@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta página contem um portfólio para o uso pessoal">
+    <meta name="keywords" content="Portfólio pessoal">
+    <meta name="author" content="Rian da silva menezes">
+    <link rel="stylesheet" href="css/projetos.css">
+    
+   
+    
+    <title>projetos</title>
+</head>
+<body>
+
+    <header>
+        <h1>Projetos</h1>
+
+        <nav>
+        <ul>
+            <li> <a href="index.html">home</a></li>
+            <li><a href="#sobre-projetos">sobre projetos</a></li>
+            <li><a href="#sobre">sobre</a></li>
+            
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section class="section-pjs">
+            <div class="conteiner-pjs">
+            <h2>Projetos desenvolvidos</h2>
+
+            <p>Projetos desenvolvidos durante o curso de desenvolvimento front-end. Estes projetos é para aprimorar as habilidades com html, css e javascript.</p>
+            </div>
+
+            <img src="img/img-2.jpg" alt="imagem">
+        </section>
+
+        <!-- Seção de projetos -->
+        <section id="sobre-projetos" class="section-pjs2">
+
+
+            <div class="descr-pr1">
+
+            <div class="projeto-Calculadora">
+                <input type="text" id="display" readonly>
+
+                <div class="botao-calculador">
+                    <button onclick="insert('1')">1</button>
+                    <button onclick="insert('2')">2</button>
+                     <button onclick="apagar()">C</button>
+                    <button onclick="insert('3')">3</button>
+                    <button onclick="insert('4')">4</button>
+                    <button onclick="insert('+')">+</button>
+                    <button onclick="insert('5')">5</button>
+                    <button onclick="insert('6')">6</button>
+                    <button onclick="calculate()">=</button>
+                    <button onclick="insert('7')">7</button>
+                    <button onclick="insert('8')">8</button>
+                    <button onclick="insert('9')">9</button>
+                    <button onclick="insert('0')">0</button>
+                </div>
+
+
+            </div>
+
+
+            <div class="textCalculadora">
+
+                <div class="textCalc">
+            <h2>Projeto de calculadora</h2>
+            <p>Calculadora feito com javascript, utilizando funções básicas</p>
+            </div>
+           
+            </div>
+            
+          
+            </div>
+
+
+              <!-- projeto de lista  -->
+
+
+            <div class="textLista">
+     
+           <div class="textList">
+            <h2>Projeto de lista</h2>
+            <p>Lista feito com javascript, utilizando  manipulações de DOM</p>
+            </div>
+            
+             <div class="projeto-lista">
+                <input type="text" id="task" placeholder="Digite aqui">
+                <button onclick="addTask()">Adicionar</button>
+                
+                <ul id="list"></ul>
+            </div>
+            </div>
+
+
+
+
+            <!-- Projeto de data -->
+
+            <div class="conteinerData">
+            
+
+                <div class="Textdata">
+                    <h2>Projeto de data</h2>
+                    <p>Projeto de data é feito <br> com javascript, utiliza<br>ndo eventos de datas</p>
+                </div>
+
+
+             <div class="projeto-Data">
+                <p id="date"></p>
+            </div>
+
+            </div>
+
+
+
+
+           
+           <!-- Projeto de busca de usuário -->
+
+           <div class="conteinerBusca">
+
+            <div class="Textbusca">
+                <h2>Projeto de buscas</h2>
+                <p>Projeto de busca feito <br> com javascript, utiliz<br>ando manipulação<br> de dados</p>
+            </div>
+
+
+            <div class="projeto-busca">
+                <input type="text" id="search" placeholder="Digite os nome: rian, joão e carlos">
+                <button onclick="findUser()">Buscar</button>
+                <p id="result"></p>
+            </div>
+
+            </div>
+
+
+
+        </section>
+    </main>
+
+    <footer id="sobre">
+
+        <div class="comentario">
+        <h3>Sobre os projetos.</h3>
+        <p>Foi desenvolvidos durante o curso, projetos esses que utilizo para exercícios de javascript. Ainda estudo e pretendo evoluir cada vez mais os meu objetivos, a minha meta é de se torna um programador front-end.</p>
+        </div>
+        <p>© 2026 Rian - Todos os direitos reservados</p>
+    </footer>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>

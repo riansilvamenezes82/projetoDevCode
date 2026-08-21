@@ -338,3 +338,20 @@ footer p{
     margin-bottom:0;
 }
 
+
+
+
+@media screen and (max-width:600px){
+    body{
+        header{
+            border:1px solid blue;
+        }
+    }
+}
+
+
+
+
+
+
+

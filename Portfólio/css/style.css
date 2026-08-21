@@ -341,7 +341,7 @@ footer p{
 
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:540px){
     body{
         header{
             border:1px solid blue;

@@ -346,6 +346,10 @@ footer p{
         header{
             border:1px solid blue;
         }
+
+        nav{
+            width:50%;
+        }
     }
 }
 

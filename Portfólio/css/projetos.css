@@ -133,7 +133,7 @@ nav li:hover{
 
     /* border:1px solid black; */
     width:50%;
-    height:60rem;
+    height:40rem;
     background:rgb(123, 205, 253);
     margin:10% 5% 10% 5%;
 }
@@ -350,11 +350,14 @@ nav li:hover{
 }
 
 .Textbusca p{
-    font-family:monospace;
+   font-family:monospace;
     padding-bottom:5%;
     font-size:22px;
-    margin:10% 0 30% 5rem;
+    margin:10% 0rem 30% 5rem;
+    width:80%;
     color:rgb(59, 82, 82);
+    /* border:1px solid red; */
+    
 }
 
 .projeto-busca{
@@ -409,5 +412,330 @@ footer{
     background:black;
     padding:40px;
 }
+
+
+
+@media only screen and (max-width:576px){
+    body{
+        nav{
+            width:80%;
+            margin-left:0%;
+            /* border:1px solid red; */
+        }
+
+
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style-type:none;
+    margin-left:10%;
+    width:auto;
+  
+
+}
+
+nav li{
+   
+    padding:10px;
+    margin-left:1%;
+   
+}
+
+
+
+
+.section-pjs{
+  display:flex;
+  margin:10% 0% 10% 0%;
+  /* border:1px solid black; */
+  
+  
+}
+
+.conteiner-pjs{
+    width:60%;
+    /* border:1px solid black; */
+    background:#add9df;
+    border-radius:12px;
+    overflow-wrap:break-word;
+    margin-left:1%;
+    
+    
+    
+}
+
+.section-pjs h2{
+    margin:10% 0% 5% 5%;
+    font-size:32px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(4, 1, 172)
+
+
+}
+.section-pjs p{
+    font-size:14px;
+    width:auto;
+    margin:10% 5% 5% 5%;
+    color:rgb(48, 89, 99);
+    
+    
+    
+    
+}
+
+.section-pjs img{
+    width:40%;
+    height:auto;
+    margin-left:3%;
+    /* border:1px solid red; */
+    
+}
+
+
+
+/* Calculadora */
+
+
+.projeto-Calculadora{
+
+    /* border:1px solid black; */
+    width:80%;
+    height:32rem;
+    background:rgb(123, 205, 253);
+    margin:10% 5% 10% 5%;
+}
+
+
+
+.textCalc{
+    /* border:1px solid black; */
+    width:80%;
+    padding:0;
+    margin: 20% 5% 5% 15%;
+}
+
+
+.textCalc h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:0% 0% 0% 0%;
+    font-size:32px;
+    color:rgb(4, 1, 172);
+   
+}
+
+.textCalc p {
+    font-family:monospace;
+    width:100%;
+    text-align:start;
+    font-size:14px;
+    margin:15% 0% 0% 0%;
+    color:rgb(59, 82, 82);
+    
+   
+    
+}
+
+
+
+
+/* Lista */
+
+.textLista{
+    /* border:1px solid black; */
+    display:flex;
+    
+    
+    
+}
+
+.textList{
+    /* border:1px solid black; */
+    width:50%;
+}
+
+.textList h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:1cm 2rem 5% 1rem;
+    font-size:32px;
+    color:rgb(4, 1, 172)
+}
+
+.textList p {
+    font-family:monospace;
+    padding-bottom:5%;
+    font-size:14px;
+    margin:10% 5% 5% 1rem;
+    color:rgb(59, 82, 82);
+    /* border-bottom:1px solid blue; */
+    
+}
+
+.projeto-lista{
+    
+    margin:1cm 1% 5% 0rem;
+    border:1px solid black;
+    background:rgb(209, 236, 238);
+    width:auto;
+    padding-bottom:5em;
+    padding-right:10%;
+    border-bottom-left-radius:1cm;
+    
+}
+
+.listElement{
+    display:flex;
+    /* border:1px solid red; */
+    width:119%;
+    
+}
+
+.projeto-lista input{
+    
+    padding:4%;
+    margin:0% 0% 0 0%;
+    border:none;
+    background:rgb(209, 236, 238);
+    border-bottom:2px solid rgb(165, 165, 165);
+
+   
+    
+}
+
+.projeto-lista button{
+   
+    margin-top:5%;
+    border-radius:1%;
+    border:none;
+    background:rgb(248, 248, 248);
+    
+}
+
+
+
+
+
+
+
+/* Data */
+
+.conteinerData{
+    margin-top:10%;
+    display:flex;
+    /* border:1px solid black; */
+   
+}
+
+.Textdata{
+    /* border: 1px solid black; */
+    width:60%;
+}
+
+.Textdata h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:2cm 2rem 5% 1rem;
+    font-size:32px;
+    color:rgb(4, 1, 172)
+}
+
+.Textdata p{
+    font-family:monospace;
+    padding-bottom:5%;
+    font-size:14px;
+    margin:10% 0 30% 1rem;
+    color:rgb(59, 82, 82);
+}
+
+.projeto-Data{
+    /* border:1px solid red; */
+    width:50%;
+
+
+    
+
+    
+    
+}
+
+.projeto-Data p{
+    font-size:18px;
+    /* border:1px solid red; */
+    padding:1em;
+    margin-right:0;
+    padding-left:4rem;
+    background:rgb(236, 236, 236);
+}
+
+
+
+/* Buscas */
+
+
+.Textbusca h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:5rem 0rem 5% 5%;
+    font-size:32px;
+    color:rgb(4, 1, 172)
+}
+
+.Textbusca p{
+    font-family:monospace;
+    padding-bottom:5%;
+    font-size:14px;
+    width:95%;
+    margin:10% 0 30% 0%;
+    padding-left:5%;
+    /* border:1px solid black; */
+    color:rgb(59, 82, 82);
+}
+
+.projeto-busca{
+    /* border:1px solid black; */
+    background:rgb(209, 236, 238);
+    width:50%;
+    height:15rem;
+    margin:4rem 1.2rem 3rem 1.2rem;
+
+}
+
+.projeto-busca input{
+    padding:4%;
+    width:80%;
+    margin:1rem 1% 0rem 1rem;
+    
+}
+
+.projeto-busca button{
+    padding:3%;
+    margin:5% 5% 5% 73%;
+}
+
+
+
+footer .comentario p{
+    
+    font-size:14px;
+    width:60%;
+    margin-bottom:20%;
+    
+}
+
+
+footer p{
+    font-size:14px;
+    color:white;
+    text-align:center;
+    margin-top:5%;
+    margin-bottom:0;
+}
+
+
+
+
+
+
+
+
+
+}}
 
 

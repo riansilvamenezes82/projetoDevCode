@@ -1,3 +1,4 @@
+
 // Calculadora
 
 function insert(num){
@@ -16,20 +17,21 @@ function calculate(){
 
 // Lista de tarefas
 
-function addTask(){
-    let task = document.getElementById("task").value;
-    if(task){
+function addList(){
+    let add = document.getElementById("inputdd").value;
+    if(add){
         let li = document.createElement("li");
-        li.textContent = task;
+        li.innerHTML =`${add} <button onclick='removeAdd()'>apagar</button>`;
+       
         
         document.getElementById("list").appendChild(li) 
-        document.getElementById("task").value = "" 
+        document.getElementById("inputdd").value = "" 
        
 
     }
 }
 
-function removeTask(){
+function removeAdd(){
     let task = document.getElementById('list');
     task.removeChild(task.firstElementChild)
 }
@@ -42,7 +44,7 @@ function showDate(){
     document.getElementById("date").textContent = today.toDateString();
 }
 
-showDate();
+
 
 
 // Buscar JSON

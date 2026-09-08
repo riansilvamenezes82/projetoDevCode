@@ -36,8 +36,8 @@ html {
     body {
         .cab {
             /* border: 1px solid blue; */
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns: 1fr;
         }
 
         header h1 {
